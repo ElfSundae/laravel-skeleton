@@ -45,7 +45,7 @@ class :package_nameServiceProvider extends ServiceProvider
     protected function registerForConsole()
     {
         $this->publishes([
-            __DIR__.'/../config/:package_name.php' => config_path(':package_name.php')
+            __DIR__.'/../config/:package_name.php' => config_path(':package_name.php'),
         ], ':package_name');
     }
 
