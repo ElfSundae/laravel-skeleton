@@ -2,9 +2,9 @@
 
 namespace :namespace;
 
-use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
-class ServiceProvider extends LaravelServiceProvider
+class :package_nameServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
@@ -72,6 +72,6 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function provides()
     {
-        return ['api.client', 'api.token'];
+        return [];
     }
 }
