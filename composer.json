@@ -1,13 +1,10 @@
 {
     "name": ":vendor/:package_name",
     "type": "library",
+    "description": "",
+    "keywords": [":package_name"],
     "homepage": "https://github.com/:vendor/:package_name",
     "license": "MIT",
-    "description": "",
-    "keywords": [
-        ":package_name",
-        "laravel"
-    ],
     "authors": [
         {
             "name": ":author_name",
