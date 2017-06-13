@@ -30,7 +30,7 @@ class :package_nameServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->mergeConfigFrom(__DIR__.'/../config/:package_name.php', ':package_name');
 
         if ($this->app->runningInConsole()) {
             $this->registerForConsole();
