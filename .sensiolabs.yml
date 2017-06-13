@@ -1,0 +1,5 @@
+rules:
+    php.use_global_variable_or_function:
+        enabled: false
+    php.object_parameter_not_type_hinted:
+        enabled: false
