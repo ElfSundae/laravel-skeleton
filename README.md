@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/:vendor/:package_name/master.svg?style=flat-square)](https://travis-ci.org/:vendor/:package_name)
+[![Build Status](https://img.shields.io/travis/:github_username/:package_name/master.svg?style=flat-square)](https://travis-ci.org/:github_username/:package_name)
 [![StyleCI](https://styleci.io/repos/:styleci_id/shield)](https://styleci.io/repos/:styleci_id)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/:sensiolabs_id.svg?style=flat-square)](https://insight.sensiolabs.com/projects/:sensiolabs_id)
 [![Quality Score](https://img.shields.io/scrutinizer/g/:vendor/:package_name.svg?style=flat-square)](https://scrutinizer-ci.com/g/:vendor/:package_name)
@@ -14,6 +14,7 @@ Replacement example:
 ```
 :vendor             elfsundae
 :package_name       my-package
+:github_username    ElfSundae
 :namespace          ElfSundae\Laravel\Skeleton
 :author_name        Elf Sundae
 :author_email       elf.sundae@gmail.com

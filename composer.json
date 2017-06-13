@@ -3,7 +3,7 @@
     "type": "library",
     "description": "",
     "keywords": [":package_name"],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/:github_username/:package_name",
     "license": "MIT",
     "authors": [
         {
