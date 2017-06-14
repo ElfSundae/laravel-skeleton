@@ -62,4 +62,3 @@ $ composer test
 ## License
 
 This package is open-sourced software licensed under the [MIT License](LICENSE.md).
-
