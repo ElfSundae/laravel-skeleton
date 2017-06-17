@@ -44,7 +44,7 @@ $ composer require :vendor/:package_name
 Then register the service provider by adding the following to the `providers` array in `config/app.php`:
 
 ```php
-:namespace\:package_nameServiceProvider::class,
+:namespace\:package_serviceServiceProvider::class,
 ```
 
 And publish the config file:
