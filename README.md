@@ -13,7 +13,8 @@ Replacement example:
 
 ```
 :vendor             elfsundae
-:package_name       my-package
+:package_name       laravel-skeleton
+:package_service    Skeleton
 :github_username    ElfSundae
 :namespace          ElfSundae\Laravel\Skeleton
 :namespace_psr4     ElfSundae\\Laravel\\Skeleton

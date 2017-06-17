@@ -40,7 +40,7 @@
         },
         "laravel": {
             "providers": [
-                ":namespace_psr4\\:package_nameServiceProvider"
+                ":namespace_psr4\\:package_serviceServiceProvider"
             ]
         }
     },

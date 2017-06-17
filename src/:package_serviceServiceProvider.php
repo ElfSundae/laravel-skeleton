@@ -4,7 +4,7 @@ namespace :namespace;
 
 use Illuminate\Support\ServiceProvider;
 
-class :package_nameServiceProvider extends ServiceProvider
+class :package_serviceServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
