@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":namespace\\": "src/"
+            ":namespace_psr4\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":namespace\\Test\\": "tests/"
+            ":namespace_psr4\\Test\\": "tests/"
         }
     },
     "scripts": {
@@ -40,7 +40,7 @@
         },
         "laravel": {
             "providers": [
-                ":namespace\\:package_nameServiceProvider"
+                ":namespace_psr4\\:package_nameServiceProvider"
             ]
         }
     },
