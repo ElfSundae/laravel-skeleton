@@ -47,7 +47,7 @@ Then register the service provider by adding the following to the `providers` ar
 :namespace\:package_serviceServiceProvider::class,
 ```
 
-And publish the config file:
+And publish config files and assets:
 
 ```sh
 $ php artisan vendor:publish --tag=:package_name
