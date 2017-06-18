@@ -16,8 +16,8 @@ Replacement example:
 :package_name       laravel-skeleton
 :package_service    Skeleton
 :github_username    ElfSundae
-:namespace          ElfSundae\Laravel\Skeleton
 :namespace_psr4     ElfSundae\\Laravel\\Skeleton
+:namespace          ElfSundae\Laravel\Skeleton
 :author_name        Elf Sundae
 :author_email       elf.sundae@gmail.com
 :author_website     https://0x123.com
