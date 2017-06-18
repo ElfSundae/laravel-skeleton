@@ -35,7 +35,7 @@ Register new package:
 
 ## Installation
 
-You can install this package via the [Composer](https://getcomposer.org) manager:
+You can install this package using the [Composer](https://getcomposer.org) manager:
 
 ```sh
 $ composer require :vendor/:package_name
