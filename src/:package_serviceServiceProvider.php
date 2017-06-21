@@ -14,7 +14,7 @@ class :package_serviceServiceProvider extends ServiceProvider
     protected $defer = false;
 
     /**
-     * Bootstrap the service provider.
+     * Bootstrap any application services.
      *
      * @return void
      */
