@@ -2,12 +2,12 @@
 
 namespace :namespace\Test;
 
-use Mockery;
+use Mockery as m;
 
 class TestCase extends \PHPUnit\Framework\TestCase
 {
     protected function tearDown()
     {
-        Mockery::close();
+        m::close();
     }
 }
