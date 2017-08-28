@@ -1,6 +1,4 @@
-# Changelog
-
-All notable changes to `:vendor/:package_name` will be documented in this file.
+# Release Notes
 
 ## 1.0.0 (YYYY-mm-dd)
 
