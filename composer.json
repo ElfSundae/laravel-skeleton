@@ -40,7 +40,10 @@
         "laravel": {
             "providers": [
                 ":psr4_namespace\\:package_serviceServiceProvider"
-            ]
+            ],
+            "aliases": {
+                ":package_service": ":psr4_namespace\\Facade"
+            }
         }
     },
     "config": {
