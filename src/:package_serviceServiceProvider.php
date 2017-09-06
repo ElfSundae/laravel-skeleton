@@ -50,22 +50,6 @@ class :package_serviceServiceProvider extends ServiceProvider
     }
 
     /**
-     * Create alias for the facade.
-     *
-     * @param  string  $facade
-     * @param  string  $class
-     * @return void
-     */
-    protected function aliasFacade($facade, $class)
-    {
-        if (class_exists('Illuminate\Foundation\AliasLoader')) {
-            \Illuminate\Foundation\AliasLoader::getInstance()->alias($facade, $class);
-        } else {
-            class_alias($class, $facade);
-        }
-    }
-
-    /**
      * Get the services provided by the provider.
      *
      * @return string[]
