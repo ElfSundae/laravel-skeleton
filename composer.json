@@ -42,7 +42,7 @@
                 ":psr4_namespace\\:package_serviceServiceProvider"
             ],
             "aliases": {
-                ":package_service": ":psr4_namespace\\Facade"
+                ":package_service": ":psr4_namespace\\Facades\\:package_service"
             }
         }
     },
