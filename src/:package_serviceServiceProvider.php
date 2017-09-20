@@ -14,7 +14,7 @@ class :package_serviceServiceProvider extends ServiceProvider
     protected $defer = false;
 
     /**
-     * Bootstrap any application services.
+     * Bootstrap the service provider.
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class :package_serviceServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register for console.
+     * Register for the console application.
      *
      * @return void
      */
