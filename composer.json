@@ -46,9 +46,6 @@
             }
         }
     },
-    "config": {
-        "sort-packages": true
-    },
     "suggest": {
     }
 }
