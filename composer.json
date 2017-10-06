@@ -45,7 +45,5 @@
                 ":package_service": ":psr4_namespace\\Facades\\:package_service"
             }
         }
-    },
-    "suggest": {
     }
 }
