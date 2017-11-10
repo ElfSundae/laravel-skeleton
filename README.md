@@ -41,13 +41,13 @@ You can install this package using the [Composer](https://getcomposer.org) manag
 $ composer require :vendor/:package_name
 ```
 
-Then register the service provider by adding the following to the `providers` array in `config/app.php`:
+For Lumen or earlier Laravel than v5.5, you need to register the service provider manually:
 
 ```php
 :namespace\:package_serviceServiceProvider::class,
 ```
 
-And publish config files and assets:
+Then publish the configuration file and assets:
 
 ```sh
 $ php artisan vendor:publish --tag=:package_name
