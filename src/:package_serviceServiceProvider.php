@@ -3,6 +3,7 @@
 namespace :namespace;
 
 use Illuminate\Support\ServiceProvider;
+use Laravel\Lumen\Application as LumenApplication;
 
 class :package_serviceServiceProvider extends ServiceProvider
 {
@@ -20,7 +21,21 @@ class :package_serviceServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        if ($this->app->runningInConsole()) {
+            $this->publishAssets();
+        }
+    }
+
+    /**
+     * Publish assets from package.
+     *
+     * @return void
+     */
+    protected function publishAssets()
+    {
+        $this->publishes([
+            __DIR__.'/../config/:config_name.php' => base_path('config/:config_name.php'),
+        ], ':package_name');
     }
 
     /**
@@ -30,23 +45,21 @@ class :package_serviceServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/:config_name.php', ':config_name');
-
-        if ($this->app->runningInConsole()) {
-            $this->registerForConsole();
-        }
+        $this->setupAssets();
     }
 
     /**
-     * Register for the console application.
+     * Setup package assets.
      *
      * @return void
      */
-    protected function registerForConsole()
+    protected function setupAssets()
     {
-        $this->publishes([
-            __DIR__.'/../config/:config_name.php' => config_path(':config_name.php'),
-        ], ':package_name');
+        if ($this->app instanceof LumenApplication) {
+            $this->app->configure(':config_name');
+        }
+
+        $this->mergeConfigFrom(__DIR__.'/../config/:config_name.php', ':config_name');
     }
 
     /**
