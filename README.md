@@ -14,6 +14,7 @@ Replacement example:
 ```
 :vendor             elfsundae
 :package_name       laravel-skeleton
+:config_name        skeleton
 :package_service    Skeleton
 :github_username    ElfSundae
 :namespace          ElfSundae\Laravel\Skeleton

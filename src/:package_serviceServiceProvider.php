@@ -30,7 +30,7 @@ class :package_serviceServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/:package_name.php', ':package_name');
+        $this->mergeConfigFrom(__DIR__.'/../config/:config_name.php', ':config_name');
 
         if ($this->app->runningInConsole()) {
             $this->registerForConsole();
@@ -45,7 +45,7 @@ class :package_serviceServiceProvider extends ServiceProvider
     protected function registerForConsole()
     {
         $this->publishes([
-            __DIR__.'/../config/:package_name.php' => config_path(':package_name.php'),
+            __DIR__.'/../config/:config_name.php' => config_path(':config_name.php'),
         ], ':package_name');
     }
 
