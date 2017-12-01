@@ -56,7 +56,7 @@ class :package_serviceServiceProvider extends ServiceProvider
     protected function setupAssets()
     {
         if ($this->app instanceof LumenApplication) {
-            $this->app->configure(':config_name');
+            $this->app->configure(':config_name'); // @codeCoverageIgnore
         }
 
         $this->mergeConfigFrom(__DIR__.'/../config/:config_name.php', ':config_name');
