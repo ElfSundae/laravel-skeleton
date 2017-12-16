@@ -54,7 +54,7 @@ Then publish the configuration file and assets:
 $ php artisan vendor:publish --tag=:package_name
 ```
 
-## Usage
+## Documentation
 
 ## Testing
 
