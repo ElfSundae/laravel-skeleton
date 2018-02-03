@@ -45,5 +45,7 @@
                 ":package_service": ":psr4_namespace\\Facades\\:package_service"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
