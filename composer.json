@@ -27,7 +27,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            ":psr4_namespace\\Test\\": "tests/"
+            ":psr4_namespace\\Tests\\": "tests/"
         }
     },
     "scripts": {
