@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": "~7.1",
-        "illuminate/support": "~5.0,<5.9"
+        "illuminate/support": "~5.0|~6.0|~7.0"
     },
     "require-dev": {
         "mockery/mockery": "~1.0",
