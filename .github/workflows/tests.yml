@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php: [7.1, 7.2, 7.3, 7.4]
+        php: [7.1, 7.2, 7.3, 7.4, 8.0]
         stability: [--prefer-stable]
         include:
           - php: 7.1
@@ -41,3 +41,4 @@ jobs:
         run: |
           wget https://scrutinizer-ci.com/ocular.phar
           php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+        if: matrix.php < 8
