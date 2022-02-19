@@ -3,6 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/:github_username/:package_name/master.svg?style=flat-square)](https://travis-ci.org/:github_username/:package_name)
+[![tests](https://github.com/:github_username/:package_name/actions/workflows/tests.yml/badge.svg)](https://github.com/:github_username/:package_name/actions/workflows/tests.yml)
 [![StyleCI](https://styleci.io/repos/:styleci_id/shield)](https://styleci.io/repos/:styleci_id)
 [![SymfonyInsight Grade](https://img.shields.io/symfony/i/grade/:sensiolabs_id?style=flat-square)](https://insight.symfony.com/projects/:sensiolabs_id)
 [![Quality Score](https://img.shields.io/scrutinizer/g/:github_username/:package_name.svg?style=flat-square)](https://scrutinizer-ci.com/g/:github_username/:package_name)
