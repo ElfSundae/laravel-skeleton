@@ -24,7 +24,7 @@ $rules = [
     'indentation_type' => true,
     'line_ending' => true,
     'lowercase_keywords' => true,
-    'method_argument_space' => true,
+    'method_argument_space' => ['on_multiline' => 'ignore'],
     'multiline_whitespace_before_semicolons' => true,
     'no_alias_functions' => true,
     'no_blank_lines_after_class_opening' => true,
